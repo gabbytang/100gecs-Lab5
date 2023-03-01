@@ -1,9 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
+import Counter from './features/counter/Counter';
 
 function App() {
   return (
+
     <div className="App">
+      <Counter> </Counter>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
