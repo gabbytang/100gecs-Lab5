@@ -8,7 +8,7 @@ export function RestaurantList({ loadRestaurants, restaurants }) {
     }, [loadRestaurants]);
 
     return (
-        <ul>
+        <ul> 
             {restaurants.map(restaurant => (
                 <li key={restaurant.id}>{restaurant.name}</li>
             ))}
